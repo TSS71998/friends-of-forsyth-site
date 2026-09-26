@@ -1,3 +1,13 @@
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import {Contact} from "@/components/Contact";
+
 export default function HomePage() {
-    return <h1>Home Page</h1>
+    return (
+        <>
+            <Hero />
+            <Features />
+            <Contact />
+        </>
+    )
 }
